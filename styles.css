@@ -5,7 +5,7 @@ body, html {
 }
 
 h4 {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 20px;
     font-weight: 600;
 }
@@ -15,12 +15,26 @@ h4 {
     overflow: hidden;
 }
 
+.dropdown-divider {
+    border-color: rgb(105, 105, 105);
+}
+
+p {
+    color: rgb(105, 105, 105);
+}
+
+.sign-up,
+.sign-in,
+.subscribe-btn {
+    background-color: #000;
+}
+
 .page-image {
     height: 100vh;
 }
 
 .page-image img {
-    height: 100%;
+    height: auto;
 }
 
 .page-subheading {
@@ -34,7 +48,9 @@ h4 {
 }
 
 .col-sign-up:hover {
+    font-weight: 900;
     color: black;
+    border-bottom: 1px solid #000;
 }
 
 .col-sign-up:active {
@@ -44,6 +60,8 @@ h4 {
 
 .col-log-in:hover {
     color: black;
+    font-weight: 900;
+    border-bottom: 1px solid #000;
 }
 
 .col-log-in:active {
@@ -53,4 +71,35 @@ h4 {
 .row-signup-form, .row-login-form {
     display: none;
 }
+
+@media (max-width: 768px ) {
+    h4 {
+        font-size: 12px;
+        line-height: 24px;
+    }
+
+    h2 {
+        font-size: 21px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    #subscribe-btn {
+        font-size: 14px;
+    }
+
+    #subscribe-email {
+        font-size: 14px;
+    }
+
+    .user-email,
+    .user-password {
+        font-size: 14px;
+    }
+
+}
+
+
 
