@@ -47,25 +47,12 @@ p {
     color: #A49E9E;
 }
 
-.col-sign-up:hover {
-    font-weight: 900;
-    color: black;
-    border-bottom: 1px solid #000;
-}
 
 .col-sign-up:active {
-    border-bottom: 1px solid #000;
     color: black;
-}
-
-.col-log-in:hover {
-    color: black;
-    font-weight: 900;
-    border-bottom: 1px solid #000;
 }
 
 .col-log-in:active {
-    border-bottom: 1px solid #000;
     color: black;
 }
 .row-signup-form {
