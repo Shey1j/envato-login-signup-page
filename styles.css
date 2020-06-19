@@ -68,8 +68,12 @@ p {
     border-bottom: 1px solid #000;
     color: black;
 }
-.row-signup-form, .row-login-form {
+.row-signup-form {
     display: none;
+}
+
+.row-login-form {
+    display: block;
 }
 
 @media (max-width: 768px ) {

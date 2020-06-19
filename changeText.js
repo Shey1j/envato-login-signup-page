@@ -4,6 +4,9 @@ let loginbtn = document.getElementById("loginbtn");
 let div1 = document.getElementById("signup-form");
 let div2 = document.getElementById("login-form");
 
+loginbtn.style.borderBottom = "2px solid black";
+loginbtn.style.color = "black";
+
 signupbtn.addEventListener('click', displayText);
 
 loginbtn.addEventListener('click', swapDisplay);
